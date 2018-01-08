@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/jerhinesmith/polyamorous.git
+  revision: f2e046847dc5bef56dd6273c85032efa94e3eea6
+  branch: fix-joins-in-rails-5-2
+  specs:
+    polyamorous (1.3.2)
+      activerecord (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,8 +70,6 @@ GEM
     nio4r (2.2.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    polyamorous (1.3.2)
-      activerecord (>= 3.0)
     rack (2.0.3)
     rack-test (0.8.2)
       rack (>= 1.0, < 3)
@@ -112,7 +118,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  polyamorous (= 1.3.2)
+  polyamorous!
   rails (~> 5.2.0.beta2)
   sqlite3
 
